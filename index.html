@@ -60,6 +60,55 @@
 </nav>
 
 
+<div class='sliders'>
+    <div class='sliders-container'>
+        <button class='arrow-left control'>◀</button>
+        <button class='arrow-right control'>▶</button>
+        <div class='sliders-content'>
+            <div class='sliders-items'>
+
+                <div class='item curruent-item'>
+                    <div class='item-main'>
+                        <div class='item-container'>
+                            <div class='item-group'>
+                                <img src='assets/gfx/b.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='item'>
+                    <div class='item-main'>
+                        <div class='item-container'>
+                            <div class='item-group'>
+                                <img src='assets/gfx/b.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='item'>
+                    <div class='item-main'>
+                        <div class='item-container'>
+                            <div class='item-group'>
+                                <img src='assets/gfx/b.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class='sliders-bars'>
+            <span class='sliders-bar control active'></span>
+            <span class='sliders-bar control'></span>
+            <span class='sliders-bar control'></span>
+        </div>
+    </div>
+</div>
+
+
     <div class='main'>
         <div class='main-container'>
             <div class='main-content'>
@@ -81,7 +130,7 @@
                                 <i class='fa-brands fa-whatsapp'></i></i>
                             </a>
                             <a href='https://www.google.com/search?q=nova+lira+vila+nova&sxsrf=ALiCzsat5GY9hfsItJfqo_v0MwiApDzzyQ%3A1662679165340&ei=fXgaY52xFJ_M1sQPwtah8AQ&gs_ssp=eJzj4tVP1zc0LCrPLjMoLys2YLRSNaiwNElJTTQ1SzE3NDFKSTNMszKoSDVJNjczMzVITUwzNDAwTvUSzssvS1TIySxKVCjLzElUAHEBUbwXGg&oq=nova+lira&gs_lcp=Cgdnd3Mtd2l6EAMYATIECCMQJzILCC4QgAQQxwEQrwEyBggAEB4QBzIFCAAQgAQyBggAEB4QBzIGCAAQHhAHMgYIABAeEAcyBggAEB4QBzIICAAQHhAHEAoyBggAEB4QBzoNCC4QxwEQrwEQsAMQDToHCAAQsAMQDToLCAAQHhCwAxANEAo6CQgAEB4QsAMQDToLCAAQHhAPELADEA06CwgAEB4QsAMQCBANSgQIQRgBSgQIRhgAUI0DWI0DYJoPaAFwAHgAgAGDAYgBgwGSAQMwLjGYAQCgAQHIAQrAAQE&sclient=gws-wiz' target='_blank''>
-                                <i class='fa-solid fa-location-dot'></i>
+                                <i class="fa-regular fa-map"></i>
                             </a>
                         </div>
                     </div>
@@ -159,7 +208,9 @@
         </div>
     </div>
 
-
+    <div class='dark-container'>
+        <button id='darkmode' onclick='darkmode()'></button>
+    </div>
 
     <footer id='contact'>
         <div class='footer-container'>
@@ -171,16 +222,16 @@
                 </div>
                 <div class='btns'>
                     <a href='https://www.instagram.com/fe_novalira/' target='_blank'>
-                        <i class='fa-brands fa-instagram'></i></i>
+                        <i class='fa-brands fa-instagram'></i>
                     </a>
                     <a href='https://web.whatsapp.com/send?phone=5547991844844' target='_blank'>
-                        <i class='fa-brands fa-whatsapp'></i></i>
+                        <i class='fa-brands fa-whatsapp'></i>
                     </a>
-                    <a href='https://www.google.com/search?q=nova+lira+vila+nova&sxsrf=ALiCzsat5GY9hfsItJfqo_v0MwiApDzzyQ%3A1662679165340&ei=fXgaY52xFJ_M1sQPwtah8AQ&gs_ssp=eJzj4tVP1zc0LCrPLjMoLys2YLRSNaiwNElJTTQ1SzE3NDFKSTNMszKoSDVJNjczMzVITUwzNDAwTvUSzssvS1TIySxKVCjLzElUAHEBUbwXGg&oq=nova+lira&gs_lcp=Cgdnd3Mtd2l6EAMYATIECCMQJzILCC4QgAQQxwEQrwEyBggAEB4QBzIFCAAQgAQyBggAEB4QBzIGCAAQHhAHMgYIABAeEAcyBggAEB4QBzIICAAQHhAHEAoyBggAEB4QBzoNCC4QxwEQrwEQsAMQDToHCAAQsAMQDToLCAAQHhCwAxANEAo6CQgAEB4QsAMQDToLCAAQHhAPELADEA06CwgAEB4QsAMQCBANSgQIQRgBSgQIRhgAUI0DWI0DYJoPaAFwAHgAgAGDAYgBgwGSAQMwLjGYAQCgAQHIAQrAAQE&sclient=gws-wiz' target='_blank'>
-                        <i class='fa-solid fa-location-dot'></i>
+                    <a href='https://www.google.com/search?q=nova+lira+vila+nova&sxsrf=ALiCzsat5GY9hfsItJfqo_v0MwiApDzzyQ%3A1662679165340&ei=fXgaY52xFJ_M1sQPwtah8AQ&gs_ssp=eJzj4tVP1zc0LCrPLjMoLys2YLRSNaiwNElJTTQ1SzE3NDFKSTNMszKoSDVJNjczMzVITUwzNDAwTvUSzssvS1TIySxKVCjLzElUAHEBUbwXGg&oq=nova+lira&gs_lcp=Cgdnd3Mtd2l6EAMYATIECCMQJzILCC4QgAQQxwEQrwEyBggAEB4QBzIFCAAQgAQyBggAEB4QBzIGCAAQHhAHMgYIABAeEAcyBggAEB4QBzIICAAQHhAHEAoyBggAEB4QBzoNCC4QxwEQrwEQsAMQDToHCAAQsAMQDToLCAAQHhCwAxANEAo6CQgAEB4QsAMQDToLCAAQHhAPELADEA06CwgAEB4QsAMQCBANSgQIQRgBSgQIRhgAUI0DWI0DYJoPaAFwAHgAgAGDAYgBgwGSAQMwLjGYAQCgAQHIAQrAAQE&sclient=gws-wiz'' target='_blank'>
+                        <i class="fa-regular fa-map"></i>
                     </a>
                 </div>
-                <p> Developer Website - <a class='footer-link' href='https://github.com/function404' target="_blank">@function404</a></p>
+                <p> Developer Website - <a class='footer-link' href='https://github.com/function404' target='_blank'>@function404</a></p>
             </div>
         </div>
     </footer>
