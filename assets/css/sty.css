@@ -465,6 +465,7 @@ body{
 
 .main .main-container .main-content .content-gr ul p{
   margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .main .main-container .main-content .content-gr .img-content{
@@ -771,6 +772,11 @@ footer .footer-container .footer-content .footer-link:hover{
 
   .main .main-container .main-content .content-gr{
     max-width: 350px;
+  }
+
+  .main .main-container .main-content .content-gr .img-content{
+    text-align: center;
+    margin-top: 110px;
   }
 
   .main .main-container .main-content .content-gr .img-content img{

@@ -3,7 +3,7 @@
 </div>
 
 <div align='center'>
-    <p><strong>Ultima atualização:</strong> 5 Out. 2022<br><strong>Última versão:</strong> 1.5.0</p>
+    <p><strong>Ultima atualização:</strong> 17 Out. 2022<br><strong>Última versão:</strong> 1.6.0</p>
     <p>>> <a target='_blank' href='https://novalira.netlify.app'><i>novalira.netlify.app</i></a> <<</p>
 </div>
 
