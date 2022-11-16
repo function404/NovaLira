@@ -33,6 +33,13 @@ body{
   overflow-x: hidden;
 }
 
+.transition{
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition:all 600ms ease-in-out;
+  -o-transition:all 600ms ease-in-out;
+  transition:all 600ms ease-in-out;
+}
+
 /* loader */
 .loader-container{
   width: 100%;
